@@ -3,7 +3,6 @@ library(shinydashboard)
 library(ggplot2)
 library(MASS)
 library(grid)
-library(pander)
 
 # Define function for generating plot of correlated data sets:
 cor.example <- function(sigmax = 5, sigmay = 10, rho = 0.9, n = 40, range = TRUE) {
